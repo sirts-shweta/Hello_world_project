@@ -11,4 +11,6 @@ COPY . /Hello_world_project
 RUN pip install -r requirements.txt
 
 ENTRYPOINT ["flask"]
+
+CMD [ "run"]
 # CMD [ "run", "--host", "0.0.0.0" ]
